@@ -1,0 +1,2 @@
+[env]
+MY_PARENT_STUFF = "Parent stuff overriden via MISE_ENV=my_env"

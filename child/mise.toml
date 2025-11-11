@@ -1,0 +1,10 @@
+[env]
+MY_STUFF = "mise.toml"
+
+[tasks.test]
+run = [
+    "echo '# From parent' ; echo $MY_PARENT_STUFF",
+    "echo '# In both' ; echo $MY_STUFF",
+    "echo '# Local stuff' ; echo $MY_LOCAL_STUFF",
+    "echo '# Only in my_env' ; echo $MY_ENV_STUFF",
+]
